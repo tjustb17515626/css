@@ -1,0 +1,65 @@
+<style type="text/css">
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-family: "微软雅黑";
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: limegreen;
+}
+
+li {
+    list-style: none;
+}
+
+.lunbotu {
+    width: 1349px;
+}
+
+#piclist {
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+}
+
+.focus-list {
+    float: left;
+    position: relative;
+}
+
+.focus-side-inner {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#focus-ul {
+    margin-top: 20px;
+}
+/*将li设置为浮动元素，将所有图片连在一起*/
+.focus-li {
+    width: 280px;
+    height: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.focus-li a {
+    line-height: 30px;
+    font-size: 17px;
+}
+.focus-index-list{
+    width:20000px;//使图片都在同一行
+    
+}
+
+</style>

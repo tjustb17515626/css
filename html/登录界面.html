@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+    <style type="text/css">
+        p{
+            border:medium solid red;
+
+        }
+        h3{
+            font-family:"仿宋" ;
+            font-size:30px;
+        }
+        body{
+            background: url(...images/picture.jpg) no-repeat;
+            height:100%;
+            width:100%;
+            overflow: hidden;
+            background-size:cover;
+
+        }
+        #submit{
+            margin-left :80px;
+            border:1px solid #474e63;
+            height:26px;
+            font-weight:bold;
+        }
+        #reset{
+            border:1px solid #474e63;
+            height:26px;
+            font-weight:bold;
+
+        }
+
+    </style>
+    
+    
+</head>
+<body>
+    <center>
+        <h3>个人信息注册页面</h3>
+    <form>
+        <table >
+            <tr>
+                <td>用户名: &nbsp;&nbsp;&nbsp;    <input name="loginname" type="text" maxlength="12" required pattern="^[a-zA-Z] [a-zA-Z0-9_] {4,11}$"autofofocus </td>
+            </tr>
+            <tr>
+                <td>密码: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input name="pass"  type="password" maxlength="12" required
+                    pattern="^[a-zA-Z]\w{5,17}$"/>
+                </td>
+            </tr>
+            <tr>
+                <td>密码确认:  <input name="pass" type="password" maxlength="12"required pattern="^[a-zA-Z]\w{5,17}$" />
+                <input type="submit" value="提交" onclick="javascript:check();" />
+                <input type="reset"  value="重置" />
+                </td>
+                <output name="info"></output>
+            </tr>
+
+
+            <script>
+                function check(){
+                    var name=document.getElementById("username").value;
+                    if(uname==""){
+                        alert(document.getElementsByName("info"));
+                        alert.getElementsByName("info").value="用户名不能为空" ;
+                    }
+                }
+            </script>
+            </tr>
+            </form>
+        </table>
+    
+    </center>
+        <img width="100%" height="100%" src="E:wangye////picture.jpg" style="position:absolute; left:0; top:0; z-index:-1;"/>
+        <a href="线上超市.html" />
+
+    
+</body>
+</html>
